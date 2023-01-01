@@ -5,19 +5,22 @@ public class JumpHero {
     private final int year;
 
     //コンストラクタ
-    public JumpHero(String title , String leader , int year) {
+    public JumpHero(String title, String leader, int year) {
         this.title = title;
         this.leader = leader;
         this.year = year;
     }
+
     //メソッド
-    public  String getTitle(){
+    public String getTitle() {
         return title;
     }
+
     public String getLeader() {
         return leader;
     }
-    public int getYear(){
+
+    public int getYear() {
         return year;
     }
 }
